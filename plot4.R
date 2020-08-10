@@ -30,7 +30,7 @@ subsetNEISCC <- NEISCC[coalMatches, ]
 # 2.1. Creating new variables with the plot4 data
 aggregatedTotalByYear <- aggregate(Emissions ~ year, subsetNEISCC, sum)
 
-# 2.2. Generating plot3.png
+# 2.2. Generating plot4.png
 ##loading library ggplot2
 if(!require(ggplot2)){
         install.packages("ggplot2")
